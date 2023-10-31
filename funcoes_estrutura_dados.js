@@ -18,7 +18,7 @@ const countStringsFromObject = (objectBase) => {
   return stringsCount
 }
 
-//o resultado é { Samantha: 2, 'Rua Teste, 01': 1, Uno: 1 }
+//o resultado é { Jéssica: 2, 'Rua Teste, 01': 1, Uno: 1 }
 console.log(countStringsFromObject({
   nome: 'Jéssica',
   numero: 7,
